@@ -1,0 +1,346 @@
+/*inicia css para inicio*/
+body{
+    font-family: "Mate", serif;
+}
+/*css para header*/
+header{
+    background: linear-gradient(to right, #3ac9ec, #d077f3);
+    padding: 20px 0;
+}
+
+.caja{
+    width: 1200px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 50px;
+    text-align: left;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 10px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 400px;
+    font-size: 30px;
+    text-decoration: none;
+    font-family: "Jersey 20", sans-serif;
+}
+
+nav a:hover{
+    color: #0936ca;
+    text-decoration: underline;
+}
+
+h1{
+    text-align: right;
+}
+
+main{
+    background: url(imagenes/backgroud.jpg);
+}
+
+/*css para el cuerpo principal*/
+.principal{
+    padding: 2em;
+    /*background: #e9e4e4;*/
+    width: 1700px;
+    margin: 0 auto;
+}
+
+.titulo-principal{
+    text-align: center;
+    font-family: "Orbitron", sans-serif;
+    font-size: 100px;
+    margin: 0px auto 25px;
+    color: #ffffff;
+    text-shadow: 10px 10px 15px #0936ca;
+}
+
+.titulo-secundario{
+    text-align: center;
+    font-family: "Orbitron", sans-serif;
+    font-size: 37px;
+    margin: 20px auto 50px;
+    color: #ffffff;
+    text-shadow: 10px 10px 10px #0936ca;
+}
+
+.persona{
+    width: 300px;
+    float: left;
+    margin: 0 10px 10px 10px;
+    transition: 250ms;
+}
+
+.persona:hover{
+    opacity: 0.15;
+}
+
+.principal p{
+    margin: 100px 120px 10px 0;
+    font-family: "Mate", serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #ffffff;
+    text-shadow: 3px 3px 5px #040007;
+}
+
+.formacion{
+    /*background: #d077f3;*/
+    padding: 2em;
+    width: 900px;
+    margin: 200px auto 10px;
+}
+
+.titulo-formacion{
+    text-align: center;
+    font-family: "Mate", serif;
+    font-size: 50px;
+    margin: 5px auto 10px;
+    color: #ffffff;
+    text-shadow: -10px 7px 5px #2e041d;
+}
+
+.formacion p{
+    text-align: center;
+    font-family: "Mate", serif;
+    font-size: 30px;
+    margin: 5px auto 10px;
+    color: #ffffff;
+    text-shadow: -10px 7px 5px #2e041d;
+    
+}
+
+.mapa{
+    margin: 30px auto;
+    box-shadow: 10px 10px 30px 15px #ffffff;
+}
+
+.experiencia{
+    
+    padding: 2em;
+    width: 1200px;
+}
+
+.titulo-experiencia{
+    text-align: center;
+    font-family: "Mate", serif;
+    font-size: 50px;
+    margin: 5px auto 10px;
+    color: #000000;
+    font-weight: bold;
+    text-shadow: 10px 10px 10px  #000000;
+}
+
+.lista-experiencia{
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.items{
+    line-height: 2;
+    font-family: "Mate", serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 5px 1px 15px  #000000;
+}
+
+.items::before{
+    content: "⬤";
+    color: #ffffff;
+    margin: 0 10px 0;
+}
+
+.imagen-experiencia{
+    width: 50%;
+}
+
+.habilidades{
+    width: 600px;
+    padding: 1em;
+    margin: 0 auto;
+}
+
+.tabla-titulo{
+    text-align: center;
+    color: #000000;
+    font-family: "Jersey 20", sans-serif;
+    font-size: 45px;
+    font-weight: 400px;
+}
+
+.tabla-habilidades{
+    margin: 15px auto;
+    color: white;
+    background: grey;
+    font-size: 35px;
+    font-family: "Mate", serif;
+    text-align: center;
+}
+
+.contorno{
+    border: 2px dotted black;
+    padding: 5px 50px;
+}
+/*css para el pie de pagina*/
+footer{
+    width: 100%;
+    background: linear-gradient(#4a019e,#1dddff);
+}
+
+.pie-de-pagina{
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: "Orbitron", sans-serif;
+    text-align: center;
+    padding: 2em;
+}
+
+/*css para pagina de contactos*/
+
+.background-contactos{
+    background: url(imagenes/fondocontactos.jpg);
+}
+
+.contactos{
+    width: 100%;
+    margin: 0 auto;
+    padding: 2em;
+    text-align: center;
+}
+
+.contactos img{
+    height: 600px;
+    width: 600px;
+}
+
+.contactos li{
+    display: inline-block;
+    margin: 20px;
+}
+
+.text-contactos{
+    font-weight: bold;
+    font-size: 40px;
+    text-decoration: none;
+    font-family: "Orbitron", sans-serif;
+    color: #ffffff;
+}
+
+.contactos li:hover{
+    box-sizing: border-box;
+    border: 2px solid #ffee05;
+    border-radius: 10px;
+}
+
+/*css para pagina de proyectos*/
+
+.proyectos{
+    padding: 3em;
+    background: #fefefe;
+    width: 1400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.titulo-proyectos{
+    font-weight: bold;
+    font-size: 80px;
+    font-family: "Orbitron", sans-serif;
+    color: #030303;
+    text-align: center;
+    margin: 0 auto;
+    clear: left;
+}
+
+.video{
+    width: 600px;
+    margin: 50px auto;
+    background: #000000;
+}
+
+.descripcion-musbeth{
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: "Orbitron", sans-serif;
+    color: #030303;
+    margin: 50px 0 1em;
+}
+
+.proyecto-barberia{
+    width: 1400px;
+    background: linear-gradient(#fefefe,rgb(121, 102, 124));
+    padding: 3em;
+    margin: 0 auto;
+}
+
+.imagen-barberia{
+    margin: 0 50px 50px 50px;
+    height: 450px;
+    width: 700px;
+}
+
+.descripcion-barberia{
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: "Orbitron", sans-serif;
+    color: #030303;
+    margin: 0 auto;
+    text-align: left;
+    width: 40%;
+    float: left;
+}
+
+.proyecto-numerosecreto{
+    width: 1400px;
+    background: rgb(121, 102, 124);
+    padding: 3em;
+    margin: 0 auto;
+}
+
+.imagen-numerosecreto{
+    margin: 0 50px 50px 50px;
+    height: 450px;
+    width: 700px;
+}
+
+.descripcion-numero{
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: "Orbitron", sans-serif;
+    color: #030303;
+    margin: 0 auto;
+    text-align: left;
+    width: 40%;
+    float: right;
+}
+
+.footer-proyectos{
+    width: 100%;
+    background: url(imagenes/footerproyectos.jpg);
+}
+
+.pie-de-pagina-proy{
+    color: #ffffff;
+    font-size: 70px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: "Jersey 20", sans-serif;
+    text-align: center;
+    padding: 1.5em;
+}
